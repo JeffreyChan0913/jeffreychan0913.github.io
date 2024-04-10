@@ -3,21 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-o9zGLGiFv4coHH2hbtpJy3Pc5cIOwN9dL4n9zAX8upzT8y6dhuBfx4BCFtcF/hDsIOtMy6/CGjDZzuMGF6i8lg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <title>Jeffrey Chan's Portifolio</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="menu">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#skill">Skill</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <div class="landing"> 
+            <div class="welcome">
+                <p>Hi, my name is <span class="grad-text">Jeffrey Chan</span></p>
+            </div>
+    </div>
+    <div class="about">
+        <div class="profile">
+            <img src="p.png" alt="Profile Image">
+        </div>
+        <div class="aboutcontent">
+            <h2>
+                About Me
+            </h2>
+            <br>
+            <p>
+                I am a pet lover and I have adopted one dog, Meimei, and five cats: Milu, Mini, Mihua, Michi, and Miso. All of my cats were living on the street, and somehow they liked to follow Meimei while we were walking around. As a result, they are now in-door cat. Albeit all my cats keep destroying things around my house or even peeing on my bed four times a week, I still love them.
+            </p>
+            <br>
+            <p>
+                I graduated from UCSB in Statistics and Data Science in 2021 and immediately joined the UCR CS department for graduate school. Currently, I am conducting research in the finance, power market. I have also started the MAS program from UCLA in Fall 2023. Once I finish all of my degrees, I will be searching for opportunities in quantitative research, quantitative trading, data science, or machine learning engineering.
+            </p>
+            <br>
+            <p>
+                For the past few years, I have been actively involved in research in the power market and teaching young students various subjects: such as C++, Python, AMC, USACO, and AI classes. In addition, I have been creating packages that perform mean-variance analysis that utilizes Monte Carlo simulation. Meanwhile, I am actively conducting research in the Fama French Factor Model incorporating Conditional Value at Risk to generate acceptable alpha and trading strategies. Besides researching finance, I am also interested in applying novel machine-learning techniques in animal lab work. 
+            </p>
+            <br>
+            <p>
+                Lastly, my ultimate life goal is to build my hedge fund empire that supports my animal trusted fund so that animals can receive advanced and immediate treatment when needed.  
+            </p>
+        </div>
+    </div>
+    <div class="research">
+        <div class="researchcontent">
+            <h2>
+                Research Activities
+            </h2>
+            <br>
+            <h4>
+                Working Paper:  
+            </h4>
+            <br>
+            <ul>
+                <li id="researchitems">
+                    Empirical Analysis of Strategic Financial Transmission Right Trading Behavior in Midcontinent Independent System Operator Market
+                </li>
             </ul>
-        </nav>
-    </header>
+            <br>
+            <h4>
+                Research Project:
+            </h4>
+            <br>
+            <ul>
+                <li>
+                    Fast Fourier Transform with Financial Data
+                    <ul>
+                        <li>
+                            Win / Ratio has significantly increased by 21.21% with a simpler model to decrease potential overfitting issue. 
+                        </li>
+                    </ul> 
+                </li>
+                <li>
+                    Health Informatic with UCI and UCLA School of Medicine research team:
+                    <ul>
+                        <li>
+                            Extyract insight from given data set and find relatinoships between heart failure and Covid19.
+                        </li>
+                        <li>
+                            Data source: N3C[RP-2B0054].
+                        </li>
+                        <li>
+                            Data size: ONe trillion plus rows.
+                        </li>
+                    </ul> 
+                </li>
+                <li>
+                    Edge Computing - Virtual Assitant 
+                    <ul>
+                        <li>
+                            Eye tracking system
+                            <ul>
+                                <li>
+                                    Using LeNet, VGG19, AlexNet to reach 5% error rate. 
+                                </li>
+                            </ul>
+                        </li>
+                    </ul> 
+                </li>
+                <li>
+                    Graph Reduction
+                    <ul>
+                        <li>
+                            Utilize Singular Value Decomposition to shrink a Autonomous system level graph then perform Border Gateway Protocol performance testing.
+                        </li>
+                        <li>
+                            Reduce the graphs by 20% and  retain majority of the critical properties. 
+                        </li>
+                    </ul> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skillcontent">
+            <h2>
+                Skill
+            </h2>
+            <br>
+            <h4>
+                Programming Languages
+            </h4>
+            <br>
+            <p> Primary: C++ | C | Python | R </p>
+            <br>
+            <p> Secondary: Java | HTML | CSS | Java Script | Julia | Rust | Assembly (MISP) | NodeJS | Dart</p>
+            <br>
+            <h4>
+                IDE
+            </h4>
+            <br>
+            <p> vim </p>
+            <br>
+            <h4>
+                Machine Learning ALgorithms
+            </h4>
+            <br>
+            <p> Random Forest | XGBoost | SVM | LSTM | CNN | KNN | K-Mean | K-Mediods | DBSCAN | Expectation Maximization | Linear Regression | Logistics Regression | Principle Component Analysis | Singular Value Decomposition | Naive Bayes  </p>
+            <br>
+            <h4>
+                Machine Learning | Data Science Packages (Python)
+            </h4>
+            <br>
+            <p> Pandas | Sklearn | Numpy | Tensorflow | Keras | PyTorch | Matplotlib | Seaborn | Scipy | Statsmodels </p>
+            <br>
+            <h4>
+                Machine Learning | Data Science Packages (R)
+            </h4>
+            <br>
+            <p> Tidyverse | dplyr | caret | ggplot |e1071 | xgboost | randomForest </p>
+            <br>
+            <h4>
+                Software Engineering:
+            </h4>
+            <br>
+            <p> Cmake | make | googletest | Github | Gitlab | Valgrind | Leaks | OOP Design</p>
+            <br>
+            <h4>
+                Cloud Computing:
+            </h4>
+            <br>
+            <p> AWS | Azure | Open stack | VM Migration | Docker | Kubernetes </p>
+            <br>
+            <h4>
+                Computer Network:
+            </h4>
+            <br>
+            <p> TCP-IP | DHCP | Open Shortest Path First | IPv4 | IPv6 | Board Gateway Protocol </p>
+            <br>
+            <h4>
+                Distributed and Multi Processing Computing:
+            </h4>
+            <br>
+            <p> Threading | parallel computing | MapReduce </p>
+            <br>
+            <h4>
+                Operating System:
+            </h4>
+            <br>
+            <p> Mac | Ubuntu | Window </p>
+            <br>
+        </div>
+    </div>
 </body>
 
 </html>
